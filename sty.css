@@ -99,11 +99,12 @@ header .container{
 	padding: 14px 20px;
 }
 .btns{
-	margin: 10px;
+	margin: 10px 0;
 	display: flex;
 	overflow-x:auto;
 	justify-content: center;
 	align-items: center;
+	width:100%
 
 }
 .btns::-webkit-scrollbar{
