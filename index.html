@@ -6,8 +6,40 @@
 
 	<link rel="stylesheet" type="text/css" href="sty.css">
 	<title>Display Property Practice</title>
-	<script defer>
-		
+	<script>
+		function gpaboxfun(){
+			const gpa = document.querySelector('#gpabox');
+			const box = document.querySelectorAll('.box');
+			box.forEach(element => {
+				element.style['display']='none';
+			});
+			gpa.style['display']='block'
+		}
+		function assignmentboxfun(){
+			const gpa = document.querySelector('#assignmentbox');
+			const box = document.querySelectorAll('.box');
+			box.forEach(element => {
+				element.style['display']='none';
+			});
+			
+			gpa.style['display']='block';
+		}
+		function classboxfun(){
+			const gpa = document.querySelector('#classbox');
+			const box = document.querySelectorAll('.box');
+			box.forEach(element => {
+				element.style['display']='none';
+			});
+			gpa.style['display']='block'
+		}
+		function announcmentsboxfun(){
+			const gpa = document.querySelector('#announcmentsbox');
+			const box = document.querySelectorAll('.box');
+			box.forEach(element => {
+				element.style['display']='none';
+			});
+			gpa.style['display']='block'
+		}
 	</script>
 </head>
 <body>
@@ -45,10 +77,10 @@
 	<section class="buttons">
 		<div class="container">
 			<div class="btns">
-				<div class="btn"><span>GPA_Calculator</div>
-				<div class="btn">Assignments</div>
-				<div class="btn">Announcments</div>
-				<div class="btn">Class_Schedule</div>
+				<div class="btn" onclick="gpaboxfun()"><span>GPA_Calculator</div>
+				<div class="btn" onclick="assignmentboxfun()">Assignments</div>
+				<div class="btn" onclick="announcmentsboxfun()">Announcments</div>
+				<div class="btn" onclick="classboxfun()">Class_Schedule</div>
 			</div>
 
 		</div>
@@ -56,25 +88,25 @@
 
 	<section class="boxes">
 		<div class="container">
-			<div class="box">
+			<div class="box" id="gpabox">
 				<center><h2>GPA_Calculator</h2></center>
 				<p>
 					Flesbox usually solves tricky problem sincludeing how to position or dynamically resize elements on a page
 				</p>
 			</div>
-			<div class="box">
+			<div class="box" id="assignmentbox">
 				<center><h2>Assignments</h2></center>
 				<p>
 					Flesbox usually solves tricky problem sincludeing how to position or dynamically resize elements on a page
 				</p>
 			</div>
-			<div class="box">
+			<div class="box" id="announcmentsbox">
 				<center><h2>Announcments</h2></center>
 				<p>
 					Flesbox usually solves tricky problem sincludeing how to position or dynamically resize elements on a page
 				</p>
 			</div>
-			<div class="box">
+			<div class="box" id="classbox">
 				<center><h2>Class_Schedule</h2></center>
 				<p>
 					Flesbox usually solves tricky problem sincludeing how to position or dynamically resize elements on a page
