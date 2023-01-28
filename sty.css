@@ -47,6 +47,7 @@ nav ul li a{
 nav ul{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 16px;
 }
 .gpacalc{
 	margin-bottom: 30px;
