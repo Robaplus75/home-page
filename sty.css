@@ -55,6 +55,16 @@ nav ul{
 #tbl{
 	margin-bottom: 30px;
 }
+.butt{
+	display: flex;
+	justify-content: space-around;
+}
+.butt button{
+	color: rgb(14, 90, 84);
+	background-color: white;
+	width: 100px;
+	border: none;
+}
 nav{
 	display: flex;
 	align-items: center;
