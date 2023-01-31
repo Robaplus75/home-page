@@ -10,6 +10,18 @@
 	<script>
 		function gpaboxfun(){
 			const gpa = document.querySelector('#gpabox');
+
+			const gpaa = document.querySelector('.gpaa');
+			const btnn = document.querySelectorAll('.btn');
+			btnn.forEach(element => {
+				element.style['background-color']='rgb(14, 90, 84)';
+				element.style['color']='white';
+			});
+
+			gpaa.style['background-color']='white';
+			gpaa.style['color']='rgb(14, 90, 84)';
+
+
 			const box = document.querySelectorAll('.box');
 			box.forEach(element => {
 				element.style['display']='none';
@@ -19,6 +31,17 @@
 		function assignmentboxfun(){
 			const gpa = document.querySelector('#assignmentbox');
 			const box = document.querySelectorAll('.box');
+
+			const assi = document.querySelector('.assi');
+			const btnn = document.querySelectorAll('.btn');
+			btnn.forEach(element => {
+				element.style['background-color']='rgb(14, 90, 84)';
+				element.style['color']='white';
+			});
+
+			assi.style['background-color']='white';
+			assi.style['color']='rgb(14, 90, 84)';
+
 			box.forEach(element => {
 				element.style['display']='none';
 			});
@@ -28,6 +51,17 @@
 		function classboxfun(){
 			const gpa = document.querySelector('#classbox');
 			const box = document.querySelectorAll('.box');
+
+			const schee = document.querySelector('.schee');
+			const btnn = document.querySelectorAll('.btn');
+			btnn.forEach(element => {
+				element.style['background-color']='rgb(14, 90, 84)';
+				element.style['color']='white';
+			});
+
+			schee.style['background-color']='white';
+			schee.style['color']='rgb(14, 90, 84)';
+
 			box.forEach(element => {
 				element.style['display']='none';
 			});
@@ -36,6 +70,17 @@
 		function announcmentsboxfun(){
 			const gpa = document.querySelector('#announcmentsbox');
 			const box = document.querySelectorAll('.box');
+
+			const anno = document.querySelector('.anno');
+			const btnn = document.querySelectorAll('.btn');
+			btnn.forEach(element => {
+				element.style['background-color']='rgb(14, 90, 84)';
+				element.style['color']='white';
+			});
+
+			anno.style['background-color']='white';
+			anno.style['color']='rgb(14, 90, 84)';
+
 			box.forEach(element => {
 				element.style['display']='none';
 			});
@@ -84,11 +129,12 @@
 	<section class="buttons">
 		<div class="container">
 			<div class="btns">
-				<div class="btn" onclick="gpaboxfun()"><span>GPA_Calculator</div>
-				<div class="btn" onclick="classboxfun()">Class_Schedule</div>
-				<div class="btn" onclick="assignmentboxfun()">Assignments</div>
-				<div class="btn" onclick="announcmentsboxfun()">Announcments</div>
+				<div class="btn gpaa" onclick="gpaboxfun()">GPA_Calculator</div>
+				<div class="btn schee" onclick="classboxfun()">Class_Schedule</div>
+				<div class="btn assi" onclick="assignmentboxfun()">Assignments</div>
+				<div class="btn anno" onclick="announcmentsboxfun()">Announcments</div>
 			</div>
+
 
 		</div>
 	</section>
