@@ -28,6 +28,26 @@
 			});
 			gpa.style['display']='block'
 		}
+		function teacherboxfun(){
+			const gpa = document.querySelector('#teacherbox');
+			const box = document.querySelectorAll('.box');
+
+			const teachers = document.querySelector('.teachers');
+			const btnn = document.querySelectorAll('.btn');
+			btnn.forEach(element => {
+				element.style['background-color']='rgb(14, 90, 84)';
+				element.style['color']='white';
+			});
+
+			teachers.style['background-color']='white';
+			teachers.style['color']='rgb(14, 90, 84)';
+
+			box.forEach(element => {
+				element.style['display']='none';
+			});
+			
+			gpa.style['display']='block';
+		}
 		function assignmentboxfun(){
 			const gpa = document.querySelector('#assignmentbox');
 			const box = document.querySelectorAll('.box');
@@ -133,6 +153,7 @@
 				<div class="btn schee" onclick="classboxfun()">Class_Schedule</div>
 				<div class="btn assi" onclick="assignmentboxfun()">Assignments</div>
 				<div class="btn anno" onclick="announcmentsboxfun()">Announcments</div>
+				<div class="btn teachers" onclick="teacherboxfun()">Teachers</div>
 			</div>
 
 
@@ -140,6 +161,13 @@
 	</section>
 	<section class="boxes">
 		<div class="container">
+			<div class="box" id="teacherbox">
+				<center><h2>Teachers</h2></center>
+				<p>Emerging Tech teacher</p>
+				<p>
+		
+				</p>
+			</div>
 			<div class="box gpaboxx" id="gpabox">
 			
 				
