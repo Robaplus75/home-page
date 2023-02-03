@@ -84,7 +84,8 @@ nav .container{
 header{
 	padding-top: 60px;
 	background-color: rgb(14, 90, 84);
-	height: 450px;
+	height: 500px;
+	
 }
 header h1,header p{
 	color: white;
