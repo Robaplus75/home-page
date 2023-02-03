@@ -66,6 +66,8 @@ nav ul{
 	border: none;
 }
 nav{
+	position: fixed;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	background: rgb(15, 66, 66);
@@ -80,6 +82,7 @@ nav .container{
 	
 }
 header{
+	padding-top: 60px;
 	background-color: rgb(14, 90, 84);
 	height: 450px;
 }
