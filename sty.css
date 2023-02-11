@@ -11,6 +11,7 @@
 	/* var(--darkerColor) var(--lighterColor)*/
 	--darkerColor : rgb(15, 66, 66);
 	--lighterColor : rgb(14, 90, 84);
+	
 }
 .innercolor{
 	background-color: var(--darkerColor);
@@ -155,6 +156,10 @@ header .container{
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+}
+.navbtn{
+	background-color: var(--darkerColor);
+	font-weight: bold;
 }
 @media(max-width: 768px){
 	header .container{

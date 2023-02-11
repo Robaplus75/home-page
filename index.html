@@ -109,6 +109,10 @@
 		function contact(){
 			alert('Telegram Acc: @kingsforme')
 		}
+		function themefun(){
+			var root = document.querySelector(':root');
+			root.style.cssText = '--darkerColor : #070820;--lighterColor : #131647;';
+		}
 	</script>
 </head>
 <body>
@@ -116,8 +120,8 @@
 		<div class="container">
 			<div class="logo">RovaTools</div>
 			<ul>
-				<li><a href="#">Theme</a></li>
-				<li><a href="#" onclick="contact()">Contact</a></li>
+				<li><a href="#" class="btn navbtn" onclick="themefun()">Theme</a></li>
+				<li><a href="#" class="btn navbtn" onclick="contact()">Contact</a></li>
 			</ul>
 			
 		</div>
@@ -441,7 +445,7 @@
 				<div class = "innercolor" style="padding: 15px;border-radius: 10px;margin-bottom: 20px;">
 					<center><h3 style="font-family: 'Courier New', Courier, monospace;">Friday</h3></center>
 					<p>
-						8:30Am - 11:20Am <br> Drawing(DRW-DRWR4)
+						8:30Am - 11:20Am <br> Global Trend
 					</p>
 				</div>
 
