@@ -66,11 +66,13 @@ var Hangman = (function () {
             if (this.MISTAKES === 6) {
                 this.showElementByIdWithContent(this.elId + "_end", "GAME OVER!<br/>The word was: " + this.WORD);
                 this.STOPPED = true;
+                alert('GameOver, You lost')
             }
         } else if (this.WORD.indexOf(this.getGuessedfWord()) !== -1) {
             // Victory condition
             this.showElementByIdWithContent(this.elId + "_end", "You made it!<br/>The word was: " + this.WORD);
             this.STOPPED = true;
+            alert('Congrats You made it')
         }
     };
 
