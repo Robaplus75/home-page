@@ -16,7 +16,11 @@ var Hangman = (function () {
         // Possible words
         this.words      = [
             'PROGRAMMER', 'BRAINSTORM', 'CREATIVE', 'LOLLIPOP',
-            'CULTURE', 'RAZORSHARP', 'SCREWDRIVER', 'TYPEWRITER'
+            'CULTURE','ROBEL', 'SCREWDRIVER', 'TYPEWRITER','CHEMISTRY','MATHEMATICS','FOOTBALL',
+            'SOFTWARE','ENGINEERING','ETHIOPIA','MISTAKE','FRESHMAN','CALCULATOR','BUILDING',
+            'MANAGER','CAFE','ARSENAL','GERJI','MESSI','RONALDO','RUTH','ROBERA','AASTU','PREENGINEERING',
+            'MILK','SHOE','MECHANICS','AMERICA','AFRICA','ANDROID','IPHONE','LABTOP','UNIVERSE','GAME','BOOK','SUN',
+            'EARTH','RULER','PAPER','GLASS','MOBILE','FORCE','MATTER'
         ];
     }
 
